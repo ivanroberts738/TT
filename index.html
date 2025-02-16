@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision Timetable</title>
+    <style>
+        body {
+            font-family: times, sans-serif;
+            background-color: lightblue;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: navy;
+        }
+        .container {
+          border-radius: 10px;
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            table-layout: fixed;
+          font-weight:bold;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid black;
+            word-wrap: break-word;
+        }
+        th {
+            background-color: green;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: white;
+        }
+        .break {
+            background-color: white;
+        }
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 12px;
+                padding: 5px;
+            }
+            h1, h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <center> <img src="logo.png" height="150" width="150"></center>
+      <h1>ELITES DISCUSSION GROUP</h1>
+        <h1>REVISION TIMETABLE</h1>
+        <h2>For CAL II, CAL II, C.MECH 1, ARABIC and WEB DEV</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>TIME</th>
+                    <th>MON</th>
+                    <th>TUE</th>
+                    <th>WED</th>
+                    <th>THUR</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                    <th>SUN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <b><td>8:00 AM - 10:00 AM</td></b>
+                    <td>______</td>
+                   <td>______</td>
+                     <td bgcolor="red">CAL III</td>
+                     <td>______</td>
+                     <td>______</td>
+                     <td>______</td>
+                     <td>______</td>
+                </tr>
+                <tr>
+                    <td>10:30 AM - 12:30 PM</td>
+                       <td>______</td>
+                     <td>______</td>
+                       <td>______</td>
+                    <td bgcolor="orange">EPS</td>
+                       <td>______</td>
+                    <td bgcolor="yellow">WEB DEV</td>
+                       <td>______</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM - 5:00 PM</td>
+                     <td>______</td>
+                    <td bgcolor="green">CAL II</td>
+                     <td>______</td>
+                    <td bgcolor="birth">ARABIC</td>
+                    <td bgcolor="indigo">C.MECHAN 1</td>
+                    <td>______</td>
+                      <td>______</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
